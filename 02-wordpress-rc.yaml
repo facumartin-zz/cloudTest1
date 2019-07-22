@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: redmine
-        image: tiangolo/uwsgi-nginx-flask
+        image: redmine
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
